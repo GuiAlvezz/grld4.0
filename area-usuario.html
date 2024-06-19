@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRLD - Área do Usuário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <img src="img/GR_LD-removebg-preview.png" alt="Logo GRLD">
+            <nav>
+                <ul class="header-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#beneficios">Benefícios</a></li>
+                    <li><a href="#contatos">Contato</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="user-area">
+        <h2>Área do Usuário</h2>
+        <div class="user-info">
+          <h3>Dados Pessoais</h3>
+          <p>Nome: <span id="user-name">João da Silva</span></p>
+          <p>Empresa: <span id="company-name">Empresa XYZ</span></p>
+          <p>Email: <span id="user-email">joao.silva@example.com</span></p>
+          <p>Telefone: <span id="user-phone">(11) 1234-5678</span></p>
+        </div>
+        <div class="card-info">
+          <h3>Cartões</h3>
+          <ul id="card-list">
+            <li>Cartão de Crédito - Visa - 1234 5678 9012 3456</li>
+            <li>Cartão de Débito - Mastercard - 9876 5432 1098 7654</li>
+          </ul>
+          <button id="cancel-card">Cancelar Cartão</button>
+        </div>
+        <div class="payment-methods">
+          <h3>Opções de Pagamento</h3>
+          <ul id="payment-methods-list">
+            <li>Boleto Bancário</li>
+            <li>Pix</li>
+            <li>Cartão de Crédito</li>
+          </ul>
+        </div>
+        <div class="transaction-history">
+          <h3>Histórico de Compras</h3>
+          <ul id="transaction-list">
+            <li>2022-01-01 - Compra em loja - R$ 100,00</li>
+            <li>2022-01-05 - Pagamento de conta - R$ 50,00</li>
+            <li>2022-01-10 - Transferência - R$ 200,00</li>
+          </ul>
+        </div>
+        <div class="bill-payment">
+          <h3>Pagar Fatura</h3>
+          <p>Fatura atual: R$ 500,00</p>
+          <button id="pay-bill">Pagar Fatura</button>
+        </div>
+      </div>
+
+    <footer id="contatos">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Telefone: (11) 1234-5678</p>
+                <p>Email: contato@grld.com.br</p>
+                <p>Endereço: Rua Exemplo, 123, São Paulo, SP</p>
+            </div>
+            <div class="footer-section">
+                <h3>Siga-nos</h3>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/grld" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.twitter.com/grld" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/grld" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/company/grld" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2024 Cartão GRLD. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
